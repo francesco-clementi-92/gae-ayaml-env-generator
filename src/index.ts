@@ -23,8 +23,7 @@ class AppyamlGenerator extends Command {
 
     try {
       const newFile = generate({ appYamlTemplatePath: fileName, envPrefix: prefix })
-      this.log(`Generated new app.yaml
-    ${newFile}`)
+      this.log(`Generated new app.yaml`)
     } catch (err) {
       this.error(err)
     }
