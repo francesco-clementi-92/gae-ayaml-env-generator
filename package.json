@@ -1,12 +1,12 @@
 {
-  "name": "gae-ayaml-env",
+  "name": "fc-gae-ayaml-env",
   "description": "Generates an app.yaml file from a template and environment variables",
   "version": "0.0.19",
-  "author": "Robert Lancer",
+  "author": "Robert Lancer and Francesco Clementi",
   "bin": {
     "gae-ayaml-env": "./bin/run"
   },
-  "bugs": "https://github.com/rlancer/gae-ayaml-env-generator/issues",
+  "bugs": "https://github.com/francesco-clementi-92/gae-ayaml-env-generator/issues",
   "dependencies": {
     "@oclif/command": "^1.5.12",
     "@oclif/config": "^1.12.12",
@@ -27,7 +27,7 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/rlancer/gae-ayaml-env-generator",
+  "homepage": "https://github.com/francesco-clementi-92/gae-ayaml-env-generator",
   "keywords": [
     "oclif",
     "typescript",
@@ -40,9 +40,9 @@
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "gae-ayaml-env"
+    "bin": "fc-gae-ayaml-env"
   },
-  "repository": "https://github.com/rlancer/gae-ayaml-env-generator",
+  "repository": "https://github.com/francesco-clementi-92/gae-ayaml-env-generator",
   "scripts": {
     "prepack": "rm -f tsconfig.tsbuildinfo && rm -rf lib && tsc",
     "test": "echo NO TESTS"
